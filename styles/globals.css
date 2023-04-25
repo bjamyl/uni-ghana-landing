@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 #bg {
-  background-image: url('/images/student-group.jpg');
+  background-image: url('/images/hero-image.jpg');
   background-position: center;
   background-size: cover;
 }

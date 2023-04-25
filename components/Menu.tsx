@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function Menu() {
   return (
-    <section className="h-[70vh] bg-white z-1 px-4">
+    <section className="h-screen bg-white z-100 px-4">
       <ul className="font-bold text-2xl space-y-2 text-[#09347d]">
         <Link href="/">
           <li>Home</li>
