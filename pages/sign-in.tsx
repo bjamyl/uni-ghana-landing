@@ -22,7 +22,7 @@ export default function SignIn() {
               />
             </div>
             <div className="xl:ml-8">
-              <form className="flex-col gap-2" onSubmit=''>
+              <form className="flex-col gap-2" >
                 <h1 className="font-bold text-2xl mb-4 xl:text-5xl">
                   Sign In to your account
                 </h1>
