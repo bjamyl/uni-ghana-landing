@@ -11,6 +11,7 @@ export default function Search() {
             <FiSearch />
           </p>
           <input
+            disabled
             className="pl-3 xl:text-lg w-full focus:outline-none"
             type="text"
             placeholder="Search for courses"

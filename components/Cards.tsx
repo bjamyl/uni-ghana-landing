@@ -1,5 +1,4 @@
 import React from "react";
-import Card from "./Card";
 import { MdSchool } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
 import { BsFillChatTextFill, BsGraphUpArrow } from "react-icons/bs";

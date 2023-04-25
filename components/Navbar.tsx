@@ -17,7 +17,7 @@ export default function Navbar() {
         </h3>
         {/* Page Links */}
         <div className="flex items-center gap-x-6">
-          <ul className="hidden xl:flex items-center xl:gap-x-6 font-bold text-slate-100">
+          <ul className="hidden md:flex items-center md:gap-x-6 font-bold text-slate-100">
             <Link href="/">
               <li className="xl:hover:cursor-pointer">Home</li>
             </Link>
@@ -27,7 +27,7 @@ export default function Navbar() {
           </ul>
           {/* Acocunt buttons */}
           <div className="flex items-center">
-            <div className="xl:hidden">
+            <div className="md:hidden">
               <Hamburger color="white" onToggle={() => setToggle(!toggle)} />
             </div>
             <p className="text-white text-3xl hover:cursor-pointer">
