@@ -5,7 +5,7 @@ import { BsLinkedin, BsTwitter, BsFacebook } from "react-icons/bs";
 export default function Footer() {
   return (
     <footer>
-      <section className="bg-[#023a7a] mt-20 p-4 pt-8 md:px-8 lg:px-16 xl:px-20">
+      <section className="bg-[#023a7a] p-4 pt-8 md:px-8 lg:px-16 xl:px-20">
         <div className="flex  justify-between">
           {/* Logo */}
           <h3 className="font-bold text-2xl text-white">

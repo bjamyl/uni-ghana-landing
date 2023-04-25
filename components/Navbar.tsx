@@ -23,7 +23,11 @@ export default function Navbar() {
             </Link>
             <li className="xl:hover:cursor-pointer">Universities</li>
             <li className="xl:hover:cursor-pointer">Scholarships</li>
-            <li className="xl:hover:cursor-pointer border py-2 px-5">Get Started</li>
+            <Link href="/getstarted">
+              <li className="xl:hover:cursor-pointer border py-2 px-5">
+                Get Started
+              </li>
+            </Link>
           </ul>
           {/* Acocunt buttons */}
           <div className="flex items-center">

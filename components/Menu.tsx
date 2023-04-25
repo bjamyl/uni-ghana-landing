@@ -10,7 +10,9 @@ export default function Menu() {
         </Link>
         <li>Universities</li>
         <li>Scholarships</li>
-        <li className="">Get Started</li>
+        <Link href="/getstarted">
+          <li className="">Get Started</li>
+        </Link>
       </ul>
     </section>
   );
