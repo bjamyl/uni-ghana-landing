@@ -1,8 +1,5 @@
 import React from "react";
-import Image from "next/image";
-import hero_img from "/images/hero.png";
-import { MdArrowForwardIos } from "react-icons/md";
-import { FiSearch } from "react-icons/fi";
+import Search from "./Search";
 import Cards from "./Cards";
 
 export default function Hero() {
@@ -27,20 +24,8 @@ export default function Hero() {
             Learn More
           </button>
         </div>
-        <form className="mt-20 bg-[#03989e] md:w-1/2" action="">
-          <div className="flex items-center">
-            <div className=" p-3 xl:p-5 flex items-center h-full flex-1 bg-white">
-              <p className="text-2xl">
-                <FiSearch />
-              </p>
-              <input className="pl-3 xl:text-lg w-full focus:outline-none" type="text" placeholder="Search for courses"/>
-            </div>
-            <p className="text-2xl  text-white px-3 xl:px-5">
-              <MdArrowForwardIos />
-            </p>
-          </div>
-        </form>
-        <div className="xl absolute w-full flex justify-center -bottom-20">
+        <div className="xl absolute w-full flex flex-col items-center gap-3 justify-center -bottom-40 md:-bottom-20">
+        <Search/>
           <Cards/>
         </div>
       </div>
