@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "@/components/Layout";
 import Image from "next/image";
 import { MdArrowForwardIos } from "react-icons/md";
+import Link from "next/link";
 
 export default function Getstarted() {
   return (
@@ -15,10 +16,12 @@ export default function Getstarted() {
             alt="signin-img"
             className=" object-cover h-full"
           />
-          <p className=" flex items-center gap-2 font-bold absolute bottom-4 right-4 text-2xl text-white">
-            SIGN IN
-            <MdArrowForwardIos />
-          </p>
+          <Link href="/sign-up">
+            <p className="hover:cursor-pointer flex items-center gap-2 font-bold absolute bottom-4 right-4 text-2xl text-white">
+              SIGN IN
+              <MdArrowForwardIos />
+            </p>
+          </Link>
         </div>
         <div className="relative">
           <Image
@@ -28,10 +31,12 @@ export default function Getstarted() {
             alt="signup-img"
             className=" object-cover h-full"
           />
-          <p className=" flex items-center gap-2 font-bold absolute bottom-4 right-4 text-2xl text-[#023a7a]">
-            SIGN UP
-            <MdArrowForwardIos />
-          </p>
+          <Link href="/sign-up#auth-sign-up">
+            <p className="hover:cursor-pointer flex items-center gap-2 font-bold absolute bottom-4 right-4 text-2xl text-[#023a7a]">
+              SIGN UP
+              <MdArrowForwardIos />
+            </p>
+          </Link>
         </div>
       </section>
     </Layout>

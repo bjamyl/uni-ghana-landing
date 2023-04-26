@@ -8,11 +8,11 @@ export default function Search() {
       <div className="flex items-center">
         <div className=" p-3 xl:p-5 flex items-center h-full flex-1 bg-white">
           <p className="text-2xl">
-            <FiSearch />
+            <FiSearch color="black" />
           </p>
           <input
             disabled
-            className="pl-3 xl:text-lg w-full focus:outline-none"
+            className="pl-3 xl:text-lg w-full focus:outline-none bg-white border-none"
             type="text"
             placeholder="Search for courses"
           />

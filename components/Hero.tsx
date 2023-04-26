@@ -20,7 +20,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="flex mb-10">
-          <button className="border mt-5 lg:px-4 lg:py-2 lg:text-xl px-5 py-2 text-slate-100 font-bold">
+          <button className="border-white rounded-none bg-transparent mt-5 lg:px-4 lg:py-2 lg:text-xl px-5 py-2 text-slate-100 font-bold">
             Learn More
           </button>
         </div>
